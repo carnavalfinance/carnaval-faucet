@@ -6,7 +6,7 @@ A minimal faucet API for Ethereum and ERC20 tokens.
 
 You have developed a nice dApp. And you want people to try it. But people don't want to bother getting test ether. You know there exists [http://faucet.ropsten.be:3001](http://faucet.ropsten.be:3001/), but it's public and supports only Ropsten. Also, you know you could deploy your own [https://github.com/sponnet/locals-faucetserver](https://github.com/sponnet/locals-faucetserver), but it requires you to set up a Firebase account, and you're too lazy (aren't we all <3).
 
-So you deploy this super micro nano faucet in no time, add some test ether and / or your ERC20 tokens to it, and start rolling! Now, your users can start testing your dApp seamlessly.
+So you deploy this super micro carnaval faucet in no time, add some test ether and / or your ERC20 tokens to it, and start rolling! Now, your users can start testing your dApp seamlessly.
 
 So, the intended use case is providing some test ether and / or your ERC20 token to your dApp users automatically. It's not intended for wide audience use. Ideally, your Front End would generate a new wallet for the user, then make an HTTP request to your faucet and get a small amount (0.01 ETH or whatevs) so the user can call methods on your smart contract and pay for gas.
 
