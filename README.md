@@ -1,4 +1,4 @@
-# Nano Faucet
+# Carnaval Faucet
 
 A minimal faucet API for Ethereum and ERC20 tokens.
 
